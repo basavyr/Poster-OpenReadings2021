@@ -5,4 +5,6 @@ This project represents the development of a scientific poster that will take pa
 
 ## Development
 
-The poster is created using `Latex`. The theme which was used for content layout belongs to Anish Athalye (see the original GitHub repo [⭐️ here](https://github.com/anishathalye/gemini)). See [license](LICENSE.md) for more details.
+The poster is created using `Latex`. The theme which was used for content layout belongs to Anish Athalye (see the original GitHub repo [⭐️ here](https://github.com/anishathalye/gemini)). See [license](LICENSE.md) for more details. 
+
+Within the configuration classes which are already implemented, only some color schemes, font colors, block styling, and additional positioning is changed in order to achieve the desired aspect.
