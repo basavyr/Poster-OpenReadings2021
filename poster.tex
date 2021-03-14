@@ -60,59 +60,70 @@
 \separatorcolumn
 \begin{column}{\colwidth}
   \begin{block}{Introduction}
+Wobbling Motion (WM) is an unique feature of triaxial nuclei. These systems have strong (charge) + (mass) + (shape) deformations and asymmetries that are stable in the ground state.
 
-\heading{Motivation}
-
-\heading{Research goals}
-
-  \end{block}
-\begin{block}{Wobbling Motion in Nuclei}
-  Wobbling motion in nuclei employs a \emph{precession} of the total angular momentum combined with an \emph{oscillation} of its projection onto the rotational axis. Different \emph{core-particle} couplings lead to different wobbling regimes (See Fig. \ref{wobbling-regimes}).
+\textbf{Current project goal:} Describe the wobbling spectrum of an odd-A nucleus, i.e., $^{163}$Lu by using a semi-classical set of equations that describe the system dynamics.
+\heading{Wobbling Motion in Nuclei}
+  WM employs a \emph{precession} of the total angular momentum $\vec{I}$ combined with an \emph{oscillation} of its projection on the rotational axis. Different \emph{core-particle} couplings lead to different wobbling regimes (See Figs. \ref{wobbling-regimes}-\ref{tw-lw-wobbling}).
   \begin{figure}
       \centering
-     \includegraphics[scale=1.7]{images/wobbling_Regimes_COUPLING_SCHEME.pdf}
+     \includegraphics[scale=1.5]{images/wobbling_Regimes_COUPLING_SCHEME.pdf}
       \caption{An illustration with the wobbling regimes which can occur in a nucleus. From left to right: \emph{simple/ideal wobbler}, \emph{longitudinal wobbler}, \emph{transverse wobbler}.}
       \label{wobbling-regimes}
   \end{figure}
   \begin{figure}
       \centering
-     \includegraphics[scale=2.2]{images/wobbling_Regimes_updated.pdf}
-      \caption{An illustration with the wobbling regimes which can occur in a nucleus. From left to right: \emph{simple/ideal wobbler}, \emph{longitudinal wobbler}, \emph{transverse wobbler}.}
+     \includegraphics[scale=2.3]{images/wobbling_Regimes_updated.pdf}
+      \caption{\textbf{Longitudinal} (LW) and \textbf{Transverse} (TW) Wobbling regimes, depending on the \emph{core-particle} coupling. $l,m,s$ are the principal axes of a triaxial ellipsoid.}
       \label{tw-lw-wobbling}
   \end{figure}
-
-\end{block}
+  \end{block}
 \end{column}
 \separatorcolumn
 \begin{column}{\colwidth}
-  \begin{block}{Odd-A Formalism}
-The system is described by the total PRM Hamiltonian:
+  \begin{block}{Wobbling Motion: Odd-A Formalism}
+The system is described by the total Particle-Rotor-Model Hamiltonian:
 \begin{align}
     \hat{H}=\hat{H}_\text{core}+\hat{H}_\text{sp}\ ,
 \end{align}
-where $\hat{H}_\text{core}$ describes the dynamics of the triaxial core, and $\hat{H}_\text{s.p.}$ is the single-particle potential that corresponds to the odd nucleon. Depending on the angular momentum $\vec{j}$ of the nucleon, and the strength parameter $V$, its expression corresponds to a Nilsson potential as such:
-\begin{align}
-\hat{H}_\text{sp}&\equiv V_\text{sp}=\frac{\mathbf{V}}{j(j+1)}\left[\cos\gamma Y_{20}+\frac{\sin\gamma}{\sqrt{2}}\left(Y_{2-2}+Y_{22}\right)\right]\ .
-\end{align}
+where $\hat{H}_\text{core}$ describes the dynamics of the triaxial core, and $\hat{H}_\text{s.p.}$ is the single-particle potential that corresponds to the odd nucleon (for $^{163}$Lu it is the $\vec{j}=\pi(i_{13/2})$ nucleon).
+
+Hamiltonian is dequantized through the \emph{Time Dependent Variational Principle}: a set of \emph{classical} expressions for the system dynamics are obtained.
+
   \end{block}
     \begin{block}{Results}
   \begin{figure}
 \centering
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[scale=0.85]{images/TSD-12.pdf}
+  \includegraphics[scale=0.8]{images/TSD-12.pdf}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
- \includegraphics[scale=0.85]{images/TSD-34.pdf}
+ \includegraphics[scale=0.8]{images/TSD-34.pdf}
 \end{minipage}
-\caption{\textbf{Left:} ideal wobbler (case $A.0$ depicted above). \textbf{Right:} real wobbling spectrum of $^{163}$Lu (case $A.2$ depicted above).}
-    \label{energy-function-min-point-evolution}
+\caption{Energy spectrum of the four triaxial strongly-deformed bands in $^{163}$Lu.}
+    \label{tsd-bands}
 \end{figure}
+
   \end{block}
 \end{column}
 \separatorcolumn
 \begin{column}{\colwidth}
+  \begin{figure}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[scale=1.27]{images/wobbEnergies.pdf}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+ \includegraphics[scale=1.2]{images/wobbFrequencies.pdf}
+\end{minipage}
+\caption{\textbf{Left:} The wobbling energies, defined as the $E_\text{wob}=E_1(I)-\frac{1}{2}(E_0(I+1)-E_0(I-1))$, where $E_0$ is the ground-state band and $E_1$ is the first excited band. \textbf{Right:} The wobbling frequencies obtained analytically after the dequantization of $\hat{H}$. $\Omega_1$ corresponds to the motion of core, while $\Omega_2$ corresponds to the dynamics of the odd-nucleon.}
+    \label{wobb-energies}
+\end{figure}
+
     \begin{block}{Conclusions}
 
   \end{block}
