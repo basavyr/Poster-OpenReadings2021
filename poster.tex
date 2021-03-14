@@ -62,9 +62,9 @@
   \begin{block}{Introduction}
 Wobbling Motion (WM) is an unique feature of triaxial nuclei. These systems have strong (charge) + (mass) + (shape) deformations and asymmetries that are stable in the ground state.
 
-\textbf{Current project goal:} Describe the wobbling spectrum of an odd-A nucleus, i.e., $^{163}$Lu by using a semi-classical set of equations that describe the system dynamics.
+\textbf{Current project goal:} Describe the wobbling spectrum of an odd-A nucleus, i.e., $^{163}$Lu by using a semi-classical set of equations for the system's dynamics.
 \heading{Wobbling Motion in Nuclei}
-  WM employs a \emph{precession} of the total angular momentum $\vec{I}$ combined with an \emph{oscillation} of its projection on the rotational axis. Different \emph{core-particle} couplings lead to different wobbling regimes (See Figs. \ref{wobbling-regimes}-\ref{tw-lw-wobbling}).
+  WM employs a \emph{precession} of the total angular momentum $\vec{I}$ combined with an \emph{oscillation} of its projection on the rotational axis. Different \emph{core-particle} couplings lead to different wobbling regimes.
   \begin{figure}
       \centering
      \includegraphics[scale=1.5]{images/wobbling_Regimes_COUPLING_SCHEME.pdf}
@@ -86,21 +86,25 @@ The system is described by the total Particle-Rotor-Model Hamiltonian:
 \begin{align}
     \hat{H}=\hat{H}_\text{core}+\hat{H}_\text{sp}\ ,
 \end{align}
-where $\hat{H}_\text{core}$ describes the dynamics of the triaxial core, and $\hat{H}_\text{s.p.}$ is the single-particle potential that corresponds to the odd nucleon (for $^{163}$Lu it is the $\vec{j}=\pi(i_{13/2})$ nucleon).
+where $\hat{H}_\text{core}$ describes the triaxial core, and $\hat{H}_\text{s.p.}$ is the single-particle potential that corresponds to the odd nucleon (for $^{163}$Lu it is the $\vec{j}=\pi(i_{13/2})$ nucleon).
 
-Hamiltonian is dequantized through the \emph{Time Dependent Variational Principle}: a set of \emph{classical} expressions for the system dynamics are obtained.
-
+Hamiltonian is dequantized through the \textbf{Time Dependent Variational Principle} and a set of \emph{classical} expressions for the system dynamics are obtained.
+\begin{align}
+    \mathcal{H}_\text{classical}=\mathcal{H}_\text{min}+{\color{red}\Omega_1}\left(n_{w1}+\frac{1}{2}\right)+{\color{blue}\Omega_2}\left(n_{w2}+\frac{1}{2}\right)\ .
+\end{align}
+The system's behavior consists in a main rotational motion due to the core ($\mathcal{H}_\text{min}$), and two harmonic-like motions emerging from the core-particle coupling ($\Omega_1$ and $\Omega_2$).
   \end{block}
     \begin{block}{Results}
+    The excitation energies for each wobbling band (triaxial strongly-deformed -TSD- band) were obtained using the above equation.
   \begin{figure}
 \centering
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[scale=0.8]{images/TSD-12.pdf}
+  \includegraphics[scale=0.9]{images/TSD-12.pdf}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
- \includegraphics[scale=0.8]{images/TSD-34.pdf}
+ \includegraphics[scale=0.9]{images/TSD-34.pdf}
 \end{minipage}
 \caption{Energy spectrum of the four triaxial strongly-deformed bands in $^{163}$Lu.}
     \label{tsd-bands}
@@ -123,9 +127,18 @@ Hamiltonian is dequantized through the \emph{Time Dependent Variational Principl
 \caption{\textbf{Left:} The wobbling energies, defined as the $E_\text{wob}=E_1(I)-\frac{1}{2}(E_0(I+1)-E_0(I-1))$, where $E_0$ is the ground-state band and $E_1$ is the first excited band. \textbf{Right:} The wobbling frequencies obtained analytically after the dequantization of $\hat{H}$. $\Omega_1$ corresponds to the motion of core, while $\Omega_2$ corresponds to the dynamics of the odd-nucleon.}
     \label{wobb-energies}
 \end{figure}
-
+\begin{figure}
+    \centering
+    \includegraphics[scale=1.2]{images/rotFreqs.pdf}
+    \caption{The rotational frequencies of $^{163}$Lu, defined as the averaged increase in energy between two wobbling states with respect to the increase in angular momentum of the total system.}
+    \label{fig:my_label}
+\end{figure}
     \begin{block}{Conclusions}
-
+\begin{itemize}
+    \item The excitation spectrum of the wobbling states in $^{163}$Lu is accurately described by a classical set of equations.
+    \item The single-particle motion has a larger contribution in the total energy of a wobbling nucleus (Fig. \ref{wobb-energies}).
+    \item Due to the increasing trend of the wobbling energies (Fig. \ref{wobb-energies} left), the nucleus has a longitudinal wobbling regime.
+\end{itemize}
   \end{block}
 %   \begin{block}{References}
 
